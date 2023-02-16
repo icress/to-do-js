@@ -1,0 +1,106 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1458501534264-7d326fa0ca04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    -webkit-text-fill-color: aliceblue;
+    text-align: center;
+    position: relative;
+    font-size: 4rem;
+}
+
+h2 {
+    margin: 20px 0;
+    -webkit-text-fill-color: aliceblue;
+}
+
+h3 {
+    -webkit-text-fill-color: darkblue;
+}
+
+input,
+button {
+    appearance: none;
+    background: none;
+    border: none;
+
+}
+
+.task input {
+    width: 50%;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.title-container {
+    position: relative;
+    padding: 3%;
+    height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.tasks-container {
+    padding: 5%;
+    position: relative;
+}
+
+.new-task-input {
+    border-radius: 1rem;
+    padding: 5px 1rem;
+    background-color: #374151;
+    -webkit-text-fill-color: white;
+    border: none;
+    margin: 5px 15px 5px 0;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.new-task-button {
+    border-radius: 1rem;
+    padding: 5px 1rem;
+    background-color: #374151;
+    -webkit-text-fill-color: white;
+    border: none;
+    margin: 5px 15px 5px 0;
+    border-radius: 1rem;
+}
+
+.new-task-button:hover {
+    background-color: slategray;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding: 5px 1rem;
+    border: none;
+    margin: 5px 15px 5px 0;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.no-task {
+    text-align: center;
+}
+
+.actions {
+    margin: 5px 15px 5px 0
+}
